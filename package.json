@@ -1,0 +1,16 @@
+{
+  "name": "todolistkitbot",
+  "version": "1.0.0",
+  "description": "A production-ready Telegram Todo List Bot built for Render deployment.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "pg": "^8.13.1"
+  }
+}
