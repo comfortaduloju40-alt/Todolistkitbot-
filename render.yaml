@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: todolistkitbot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: BOT_TOKEN
+        sync: false
+      - key: WEBHOOK_URL
+        sync: false
+      - key: DATABASE_URL
+        sync: false
